@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8c742c4-5418-4ce0-894b-7b47b35aa47b" name="Changes" comment="крммит">
+    <list default="true" id="c8c742c4-5418-4ce0-894b-7b47b35aa47b" name="Changes" comment="ДЗ готово">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -62,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663181099045</updated>
-      <workItem from="1663181100742" duration="5284000" />
+      <workItem from="1663181100742" duration="13762000" />
     </task>
     <task id="LOCAL-00001" summary="крммит">
       <created>1663181716419</created>
@@ -71,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663181716419</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ДЗ готово">
+      <created>1663186628830</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663186628830</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +97,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="крммит" />
-    <option name="LAST_COMMIT_MESSAGE" value="крммит" />
+    <MESSAGE value="ДЗ готово" />
+    <option name="LAST_COMMIT_MESSAGE" value="ДЗ готово" />
   </component>
 </project>

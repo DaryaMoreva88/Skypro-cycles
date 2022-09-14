@@ -15,7 +15,7 @@ public class Main {
         //Задание 3
         System.out.println("Задание 3");
         for (int b = 0; b < 17; b += 2) {
-            System.out.println("Четное число " + b);
+            System.out.println("Число " + b);
         }
         //Задание 4
         System.out.println("Задание 4");
@@ -53,7 +53,43 @@ public class Main {
             total1 = total1 + total1 / 100;
             total1 = total1 + salary1;
             System.out.println("Месяц " + t + " сумма накоплений равна " + total1 + " рублей");
-
         }
+        //Задание 9.1
+        System.out.println("Задание 9.1");
+        int cash = 15000;
+        int totalSum = 0;
+        int z= 0;
+        while ( totalSum <= 2_459_000) {
+            totalSum += totalSum/100;
+            totalSum += cash;
+        z++;
+        System.out.println("Месяц " + z + " сумма накоплений равна " + totalSum + " рублей");}
+
+        //Задание 9.2
+        System.out.println("Задание 9.2");
+        int v = 0;
+        while(v < 10){
+            v++;
+         System.out.print(v + " ");
+        }
+        System.out.println("");
+        for (int g = 10; g > 0; g--) {
+            System.out.print(" " + g);
+        }
+        System.out.println("");
+        //Задание 9.3
+        System.out.println("Задание 9.3");
+        long people = 12_000_000;
+        long newPeople = people/1000 * 17;
+        long death = people / 1000 * 8;
+        long diff = 0;
+        long totalPeople = 0;
+        for (int year = 1; year <= 10; year++)
+        {    diff = newPeople - death;
+             totalPeople = diff + people;
+             people = people + diff;
+            System.out.println("Год " + year + " численность населения составляет " + totalPeople + " человек");
+        }
+
     }
     }
